@@ -280,6 +280,9 @@ nav a:hover {
 .section-title h2{
     margin-bottom: 0;
 }
+.section-title .btn {
+    margin-top: 0;
+}
 
 .grid {
     display: grid;
@@ -337,10 +340,12 @@ nav a:hover {
     color: #ffffff;
 }
 
+
 .btn:hover {
     background-color: #0055aa;
     text-decoration: none;
 }
+
 
 footer {
     background-color: #fff;
