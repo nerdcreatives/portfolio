@@ -411,6 +411,11 @@ footer a {
 
     .main .right p {
         font-size: 13px;
+		overflow: hidden;
+ 		display: -webkit-box;
+  		-webkit-box-orient: vertical;
+  		-webkit-line-clamp: 3; /* Limits the text to 3 lines */
+  		text-overflow: ellipsis;
     }
 
 }
