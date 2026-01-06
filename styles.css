@@ -440,6 +440,7 @@ footer a {
 /**ABOUT CSS MOBILE**/ 
 #about .container {
     width: 100%;
+    flex-direction: column;
 }   
 .stack-box p {
     font-size: 14px!important;
