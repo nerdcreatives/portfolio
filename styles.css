@@ -420,6 +420,10 @@ footer a {
     #home .container-wide {
         background-position: center bottom;
     }
+    .section-title h2 {
+        font-size: 22px;
+        letter-spacing: -1px;
+    }
 
 }
 
