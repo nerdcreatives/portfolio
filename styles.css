@@ -446,6 +446,9 @@ footer a {
     font-size: 14px!important;
     line-height: normal;
 }
+#about-me .right, #about-me .left{
+    width: 100%;
+}
 
 }
 
