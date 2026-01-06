@@ -295,7 +295,7 @@ nav a:hover {
     margin-top: 0;
 }
 
-.project {
+.project,.resource-card {
     background-color: #ffffff;
     border-radius: 20px;
     overflow: hidden;
@@ -303,7 +303,7 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 
-.project:hover {
+.project:hover,.resource-card:hover {
     transform: translateY(-10px);
 }
 
@@ -458,6 +458,9 @@ footer a {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    #resource-grid .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
     #thirds {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -559,6 +562,7 @@ By Alessandro Maculotti
 }
 #about-page .alt {
     padding-top: 0;
+    padding-bottom: 0;
 }
 .about-image img {
         border-radius: 25px;
@@ -567,6 +571,18 @@ By Alessandro Maculotti
 .about-text h2 {
     text-align: left;
     margin-bottom: 30px;
+}
+
+.resource-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.resource-box img {
+    width: 75px;
+    filter: invert(1);
+    margin: 0 auto;
 }
 
 /*STACKS*/
@@ -600,6 +616,13 @@ By Alessandro Maculotti
 .stack-box p{
     font-size:16px;
 }
+#resources {
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    min-height: 400px;
+    margin-bottom: 0;
+}
 
 /***CONTACT PAGE CSS****/
 #contact-page section{
@@ -622,4 +645,26 @@ section.hero.contact-me .container {
 /**PROJECT PAGE CSS**/
 #project-page .section{
     padding-top:0;
+}
+
+/**RESOURCE PAGE**/
+.resource-info {
+    padding: 15px;
+    color: #010101;
+}
+.resource-card img {
+    aspect-ratio: 4 / 2.7;
+    object-fit: cover;
+}
+.resource-info h3 {
+    letter-spacing: -1.2px;
+}
+.resource-info p {
+    font-size:12px;
+}
+#resource-page .hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
