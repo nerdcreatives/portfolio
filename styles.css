@@ -343,8 +343,10 @@ nav a:hover {
 
 
 .btn:hover {
-    background-color: #0055aa;
+    background-color: #f3c84d;
     text-decoration: none;
+    color: #010101;
+    box-shadow: 0px 2px 2px rgba(3, 7, 18, 0.02), 0px 8px 8px rgba(3, 7, 18, 0.03), 0px 18px 19px rgba(3, 7, 18, 0.05), 0px 32px 33px rgba(3, 7, 18, 0.06), 0px 50px 52px rgba(3, 7, 18, 0.08);
 }
 
 
@@ -597,4 +599,27 @@ By Alessandro Maculotti
 }
 .stack-box p{
     font-size:16px;
+}
+
+/***CONTACT PAGE CSS****/
+#contact-page section{
+    padding-top:0;
+}
+.contact-me,.contact-me h1{
+    text-align: center;
+}
+section.hero.contact-me .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-page form {
+    box-shadow: 0px 2px 2px rgba(3, 7, 18, 0.02), 0px 8px 8px rgba(3, 7, 18, 0.03), 0px 18px 19px rgba(3, 7, 18, 0.05), 0px 32px 33px rgba(3, 7, 18, 0.06), 0px 50px 52px rgba(3, 7, 18, 0.08);
+}
+
+/**PROJECT PAGE CSS**/
+#project-page .section{
+    padding-top:0;
 }
