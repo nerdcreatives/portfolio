@@ -49,6 +49,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    width: 100%;
 }
 
 .container-wide{
@@ -372,16 +373,18 @@ footer a {
 
     .about-content {
         display: flex;
-        align-items: center;
+        align-items: start;
         gap: 50px;
     }
 
     .about-text {
         flex: 1;
+        width: 100%;
     }
 
     .about-image {
         flex: 1;
+        width: 100%;
     }
 }
 @media (max-width: 767px){
@@ -429,6 +432,20 @@ footer a {
         align-items: flex-start;
     }
 
+    #in-touch h2 {
+        font-size: 32px;
+        letter-spacing: -1px;
+    }
+
+/**ABOUT CSS MOBILE**/ 
+#about .container {
+    width: 100%;
+}   
+.stack-box p {
+    font-size: 14px!important;
+    line-height: normal;
+}
+
 }
 
 @media (min-width: 1024px) {
@@ -457,6 +474,9 @@ footer a {
     }
     .main .right p{
         max-width: 100% ;
+    }
+    .about-content {
+        flex-direction: column;
     }
 }    
 
@@ -503,4 +523,74 @@ By Alessandro Maculotti
 		 box-shadow: 0 0 0 0 rgba(77, 170, 87, 0);
 	}
 }
- 
+
+/******ABOUT ME PAGE********/
+#about.hero h1 {
+    max-width: 720px;
+}
+.about-banner img {
+    border-radius: 25px;
+}
+.about-banner {
+    max-width: 1400px;
+}
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    padding-bottom: 60px;
+}
+#about-me .left{
+    width: 30%;
+}
+#about-me .right{
+    width: 70%;
+}
+#about-me .right p{
+    font-size:18px;
+    padding-bottom:15px;
+    opacity: 0.6;
+}
+#about-page .alt {
+    padding-top: 0;
+}
+.about-image img {
+        border-radius: 25px;
+        margin-bottom: 50px;
+    }
+.about-text h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*STACKS*/
+.outer-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.stack-box img {
+    width: 56px;
+    height: 56px;
+    border-radius: 13px;
+}
+.stack-box{
+    display: flex;
+    gap: 15px;
+    padding:15px;
+    background-color: #f7f7f7;
+    border-radius:20px;
+}
+.stack-box-active{
+    background-color: #f3c84d!important;
+    box-shadow: 0px 2px 2px rgba(3, 7, 18, 0.02), 0px 8px 8px rgba(3, 7, 18, 0.03), 0px 18px 19px rgba(3, 7, 18, 0.05), 0px 32px 33px rgba(3, 7, 18, 0.06), 0px 50px 52px rgba(3, 7, 18, 0.08);
+    display: flex;
+    position: relative;
+}
+.stack-box h3{
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.stack-box p{
+    font-size:16px;
+}
