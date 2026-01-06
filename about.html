@@ -4,58 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Jane Doe</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="about-page">
 
-    <header>
-        <div class="container">
+   <header>
+        <div id="header" class="container-wide">
+            <div class="branding">
+                <a href="index.html"> agyekum™
+                <!--   <img class="logo" src="images/logo.jpg" alt="Agyekum Kwesi"; > -->
+                </a>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About</a></li>
+                <!--<li><a href="index.html" class="active">Home</a></li> -->
                     <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <div>
+                <button class="book-a-call">
+                    <a href="https://calc.com" target="_blank">Book a Call</a>
+                </button>
+                <button class="book-a-call-mobile">
+                    <a href="https://calc.com" target="_blank"><img src="images/calendar.png" alt="Book a call"></a>
+                </button>
+            </div>
         </div>
     </header>
 
-    <section class="hero" style="padding: 120px 20px 80px;">
-        <div class="container">
-            <h1>About Me</h1>
+    <section id="about" class="hero" style="padding: 40px 20px 0;">
+        <div class="container center">
+            <h1><span style="font-weight: 600;">agyekum™</span> Kwesi crafts strategic, visually compelling digital experiences that drive impact and engagement.</h1>
             <p>Passionate developer turning ideas into elegant digital experiences</p>
+        </div>
+        <div class="container about-banner">
+            <img src="images/about-banner.jpg" alt="About Kwesi">
+        </div>
+        <div id="about-me" class="container">
+            <div class="left">
+                <p>About Me</p>
+            </div>
+            <div class="right">
+                <p>I am a freelance creative professional based in Accra, Ghana, specializing in Graphic Design, Web Development, and Digital Marketing. Inspired by the vibrant energy of West Africa, I create solutions that blend global standards with authentic local flair to help clients build strong, memorable digital brands.</p>
+                <p>I deliver tailored, high-quality services with clean designs, responsive websites, and effective marketing strategies that drive real results. Every project includes priority support, unlimited revisions, and a satisfaction guarantee to ensure you get exactly what you need.</p>
+                <p>Working from Accra, I offer reliable, clear communication and timely delivery to clients locally and worldwide. Whether you're launching a startup or refreshing an established brand, I'm here to bring your vision to life with creativity and professionalism. 
+                </p>
+
+            </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section alt">
         <div class="container">
             <div class="about-content">
-                <div class="about-text">
-                    <h2>Hello, I'm Jane</h2>
-                    <p>I’m a full-stack web developer with over 5 years of experience building clean, responsive, and user-friendly websites and applications.</p>
-                    <p>My journey started with a love for design and evolved into a passion for writing robust code. I specialize in React, Node.js, and modern JavaScript ecosystems, but I'm always excited to learn new tools and technologies.</p>
-                    <p>When I'm not coding, you can find me hiking, photographing nature, or experimenting with new coffee brewing methods.</p>
-                    
-                    <h3 style="margin-top: 30px;">Skills</h3>
-                    <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
-                        <li>HTML, CSS, JavaScript (ES6+)</li>
-                        <li>React, Vue.js, Next.js</li>
-                        <li>Node.js, Express, MongoDB</li>
-                        <li>UI/UX Design (Figma)</li>
-                        <li>Git, REST APIs, Responsive Design</li>
-                    </ul>
+                 <div class="about-image">
+                    <img src="images/logo.jpg" alt="Jane Doe">
                 </div>
-                <div class="about-image">
-                    <img src="images/profile.jpg" alt="Jane Doe">
+                <div class="about-text">
+                    <h2>My Stacks</h2>
+                    <ul class="outer-stack" style="list-style: none; margin-top: 10px;">
+                        <li class="stack ">
+                            <div class="stack-box stack-box-active">
+                                <img src="images/photoshop.png" alt="Photoshop">
+                                <div>
+                                    <h3>Photoshop</h3>
+                                    <p>A premium graphic design tool for experts</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="stack ">
+                            <div class="stack-box">
+                                <img src="images/figma.avif" alt="Wordpress">
+                                <div>
+                                    <h3>Figma</h3>
+                                    <p>Powerful design tool for creating intuitive user interfaces</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="stack ">
+                            <div class="stack-box">
+                                <img src="images/wordpress.png" alt="Wordpress">
+                                <div>
+                                    <h3>Wordpress</h3>
+                                    <p>Reburst CMS that powers 40% of websites worldwide</p>
+                                </div>
+                            </div>
+                        </li>
+                         <li class="stack ">
+                            <div class="stack-box">
+                                <img src="images/illustrator.png" alt="Wordpress">
+                                <div>
+                                    <h3>Illustrator</h3>
+                                    <p>For logos and digital illustrations</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="stack ">
+                            <div class="stack-box">
+                                <img src="images/contra.avif" alt="Wordpress">
+                                <div>
+                                    <h3>Contra</h3>
+                                    <p>Easiest way to hire me and collaborate on projects</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--START OF GET IN TOUCH-->
+<section class="section alt">
+    <div id="in-touch" class="container">
+        <h2>Let's work together</h2>
+        <p>Let’s build something impactful together—whether it’s your brand, your website, or your next big idea.</p>
+        <a class="btn btn-dark" href="mailto:hello@nerdcreatives.me" target="_blank">Send a mail</a>
+    </div>
+</section>
+
+<!--END OF GIT-->
+
+
     <footer>
         <div class="container">
-            <p>&copy; 2026 Jane Doe. All rights reserved.</p>
+            <p>&copy; 2026 agyekum™ Kwesi. All rights reserved.</p>
         </div>
     </footer>
 
