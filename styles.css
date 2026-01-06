@@ -166,6 +166,18 @@ nav a:hover {
 .book-a-call a{
     color:#fff;
 }
+
+.book-a-call-mobile {
+    background-color: #010101;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display:none;
+}
+.book-a-call-mobile img {
+    filter: invert(1);
+    width: 18px;
+}
 .section {
     padding: 80px 0;
     background-color: #ffffff;
@@ -368,10 +380,34 @@ footer a {
     }
 }
 @media (max-width: 767px){
+    .hero {
+        padding: 0 20px 20px 20px;
+    }
+    .hero h1{
+        font-size: 32px;
+        letter-spacing: -1px;
+    }
     #home .container-wide{
         justify-content: start;
         padding-top:60px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+    #header {
+    padding: 10px 20px;
+}
+    .book-a-call{
+        display:none;
+    }
+    .book-a-call-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .back-gradient {
+        background: none;
+    }
+
 }
 
 @media (min-width: 1024px) {
