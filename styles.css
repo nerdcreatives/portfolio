@@ -432,7 +432,7 @@ footer a {
         align-items: center;
     }
     .back-gradient {
-        background: none;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 10%);
         height: 100%;
     }
     #home .main {
