@@ -572,6 +572,9 @@ By Alessandro Maculotti
     text-align: left;
     margin-bottom: 30px;
 }
+#about p {
+    margin-top: 10px;
+}
 
 .resource-box {
     display: flex;
