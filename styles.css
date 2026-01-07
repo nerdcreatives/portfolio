@@ -15,6 +15,10 @@ textarea,
 select {
     font-size: 16px;
 }
+input[type=text]:focus-visible, textarea:focus-visible,input[type=email]:focus-visible{
+    border-color: #010101 !important;
+    outline: none !important;
+}
 
 body {
     font-family: "Inter", sans-serif;
