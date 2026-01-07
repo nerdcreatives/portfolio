@@ -55,7 +55,9 @@
 
                     <label for="message" style="display: block; margin-bottom: 8px; font-weight: bold;">Message</label>
                     <textarea id="message" name="message" rows="8" required style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 12px; border: 1px solid #ccc; resize: vertical;"></textarea>
-                    <input type="hidden" name="_autoresponse" value="Thank you! I'll get back to you soon."> <!-- Auto-reply to visitor -->
+                    <input type="hidden" name="_next" value="https://nerdcreatives.github.io/portfolio/thanks.html"> <!-- Custom thank you page -->
+                    <input type="hidden" name="_captcha" value="false"> <!-- This disables captcha -->
+                    <input type="hidden" name="_autoresponse" value="Thank you! I'll get back to you soon."> <!-- This Auto-reply visitors -->
                     
                     <button type="submit" class="btn btn-dark" style="width: 100%; padding: 14px; font-size: 18px;">Send Message</button>
                 </form>
