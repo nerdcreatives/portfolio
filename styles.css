@@ -5,6 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=tel],
+input[type=url],
+textarea,
+select {
+    font-size: 16px;
+}
 
 body {
     font-family: "Inter", sans-serif;
