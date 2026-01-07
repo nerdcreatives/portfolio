@@ -20,7 +20,7 @@ body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
     color: #333333;
-    background-color: #f9f9f9;
+    background-color: #fff;
     font-size: 16px;
 }
 
@@ -683,6 +683,14 @@ section.hero.contact-me .container {
     justify-content: center;
     align-items: center;
 }
-.recieved {
-    width: 200px;
+.recieved{
+    width: 150px;
+    padding: 20px;
+}
+#thanks-page .hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
