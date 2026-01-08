@@ -195,9 +195,9 @@ nav a:hover {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    display:none;
+    display: none;
 }
-.book-a-call-mobile {
+.book-a-call-mobile:hover {
     background-color: #f3c84d;
     text-decoration: none;
     color: #010101;
