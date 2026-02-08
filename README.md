@@ -9,8 +9,6 @@ About Project
 
 Personal portfolio website of **Kwesi Agyekum** (agyekum™), a digital product designer and creative specializing in strategic visual design, user-centered experiences, and compelling web solutions.
 
-Built and hosted on GitHub Pages: https://nerdcreatives.github.io/portfolio/
-
 ### Highlights
 - Clean, modern portfolio showcasing problem-solving through design
 - Featured projects including:
