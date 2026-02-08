@@ -1,13 +1,10 @@
 Name: Ebenezer Agyekum Kwesi
 ==============================
-### BIT | Level 200 | Weekend
+### BIT | Level 200 | Weekend   ### Index No: 2425400353
 ---------------------------------
-### Index No: 2425400353
 
 About Project
 ================================
-
-# Nerd Creatives Portfolio
 
 Personal portfolio website of **Kwesi Agyekum** (agyekum™), a digital product designer and creative specializing in strategic visual design, user-centered experiences, and compelling web solutions.
 
